@@ -21,4 +21,4 @@ This will prompt you to enter the IP address or hostname of the target system, a
 ## Contact
 
 If you have any questions or feedback about m0PortScanner, feel free to reach out to me on 
-# Discord at m0xsc#8271.
+# Discord: m0xsc#8271.
