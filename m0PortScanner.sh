@@ -1,21 +1,46 @@
 #!/bin/bash
 #Script created by m0xsc
 
-function scan_ip(){
+clear
 
-	clear
+figlet -l m0xsc
 
-	figlet -l m0xsc
+echo "https://twitter.com/m0xsc"
 
-	echo "https://twitter.com/m0xsc"
+echo "https://github.com/m0xsc"
 
-	echo "https://github.com/m0xsc"
+echo "Port Scanner 1.0"
 
-	echo
+function install_nmap() {
 
-	echo "Port Scanner 1.0"
+	echo	
 
-	chmod 777 m0.sh
+	echo "Do you have Nmap installed? [y/n]: "
+
+	read truenmap
+
+	if [ "$truenmap" = "y" ]; then 
+
+		echo "Nmap is already installed"
+
+	fi
+
+	if [ "$truenmap" = "n" ]; then
+
+		echo "Nmap will be installed right now..."
+
+		echo
+
+		sudo apt-get update
+
+		sudo apt-get install nmap
+
+	fi
+}
+
+install_nmap
+
+function scan_ip() {
 
 	echo
 
@@ -43,13 +68,15 @@ function scan_ip(){
 
 	sleep 30
 		
-	read -p "Do you want to scan another IP address (y/n):"
+	read -p "Do you want to scan another IP address (y/n):" choice
 	
-	read choice
-
 	if [ "$choice" = "y" ]; then
 
 		scan_ip
+
+	else
+
+		exit 0
 
 	fi
 
