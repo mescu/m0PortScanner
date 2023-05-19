@@ -11,6 +11,41 @@ echo "https://github.com/m0xsc"
 
 echo "Port Scanner 1.0"
 
+function update_sys() {
+
+	echo
+
+	echo "This will update all your system"
+
+	echo
+
+	echo "Do you want to? (y/n)"
+
+	echo
+
+	read truesys
+
+	if [ "$truesys" = "y" ]; then
+
+		echo "Updating your system...."
+
+		echo
+		
+		sudo apt-get update
+	fi
+	
+	if [ "$truesys" = "n" ]; then 
+	
+		echo "Ok"
+
+		echo
+		
+	fi
+
+}	
+
+update_sys
+
 function install_nmap() {
 
 	echo	
