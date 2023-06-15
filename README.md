@@ -6,7 +6,7 @@ m0PortScanner is a simple and easy-to-use port scanner using nmap. It is designe
 
 1. To get started with m0PortScanner, simply clone the repository to your local machine:
 
-    ``` $git clone https://github.com/m0xsc/m0PortScanner.git ```
+    ``` $git clone https://github.com/m0xsc/m0PortScanner```
 
 2. Once you have cloned the repository, navigate to the m0PortScanner directory:
 
