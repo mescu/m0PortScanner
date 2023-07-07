@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script created by m0xsc
+#Script created by mescu
 
 clear
 
