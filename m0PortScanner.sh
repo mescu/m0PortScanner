@@ -3,8 +3,6 @@
 
 clear
 
-figlet -l m0xsc
-
 echo "https://twitter.com/m0xsc"
 
 echo "https://github.com/m0xsc"
