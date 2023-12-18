@@ -3,9 +3,9 @@
 
 clear
 
-echo "https://twitter.com/m0xsc"
+echo "https://twitter.com/mescu"
 
-echo "https://github.com/m0xsc"
+echo "https://github.com/mescu"
 
 echo "Port Scanner 1.0"
 
